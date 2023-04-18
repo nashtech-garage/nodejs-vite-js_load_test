@@ -1,0 +1,248 @@
+{
+  "aggregate": {
+    "timestamp": "2023-04-17T04:22:53.892Z",
+    "scenariosCreated": 10,
+    "scenariosCompleted": 0,
+    "requestsCompleted": 110,
+    "latency": {
+      "min": 28.4,
+      "max": 365.8,
+      "median": 60.9,
+      "p95": 180,
+      "p99": 353.9
+    },
+    "rps": {
+      "count": 110,
+      "mean": 11.01
+    },
+    "scenarioDuration": {
+      "min": null,
+      "max": null,
+      "median": null,
+      "p95": null,
+      "p99": null
+    },
+    "scenarioCounts": {
+      "0": 10
+    },
+    "errors": {
+      "Exceeded maxRedirects. Probably stuck in a redirect loop https://www.artillery.io/404": 10
+    },
+    "codes": {
+      "301": 10,
+      "307": 100
+    },
+    "matches": 0,
+    "customStats": {},
+    "counters": {
+      "greeting_count": 10
+    },
+    "scenariosAvoided": 0,
+    "phases": [
+      {
+        "arrivalRate": 1,
+        "duration": 10
+      }
+    ]
+  },
+  "intermediate": [
+    {
+      "timestamp": "2023-04-17T04:22:52.858Z",
+      "scenariosCreated": 9,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 99,
+      "latency": {
+        "min": 28.4,
+        "max": 365.8,
+        "median": 60.9,
+        "p95": 180.1,
+        "p99": 356.1
+      },
+      "rps": {
+        "count": 99,
+        "mean": 11.05
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "0": 9
+      },
+      "errors": {
+        "Exceeded maxRedirects. Probably stuck in a redirect loop https://www.artillery.io/404": 9
+      },
+      "codes": {
+        "301": 9,
+        "307": 90
+      },
+      "matches": 0,
+      "latencies": [
+        82047700,
+        365768700,
+        172964300,
+        60476400,
+        59713800,
+        59561100,
+        63884500,
+        65774300,
+        43712400,
+        182003900,
+        180188700,
+        346001900,
+        99232700,
+        78357200,
+        77071000,
+        95953100,
+        148798900,
+        64428100,
+        60055600,
+        60111200,
+        34304900,
+        65094100,
+        55687300,
+        170651000,
+        55031800,
+        61026600,
+        53682200,
+        59905000,
+        78909700,
+        67345500,
+        62606500,
+        57037600,
+        55542100,
+        45226700,
+        165254300,
+        62874900,
+        59409100,
+        64496000,
+        57512500,
+        58437400,
+        59058900,
+        56599100,
+        90881100,
+        55536100,
+        35300500,
+        180026700,
+        75653300,
+        71108700,
+        88837100,
+        90688100,
+        67876800,
+        73253600,
+        65364600,
+        60402900,
+        58551700,
+        33433000,
+        179064600,
+        75937200,
+        82828800,
+        57072300,
+        57457200,
+        62283900,
+        62445900,
+        62969700,
+        57638400,
+        63664600,
+        28402800,
+        208271500,
+        58294800,
+        57108200,
+        56430200,
+        74917600,
+        59603700,
+        63921600,
+        71286200,
+        88385100,
+        54833900,
+        42868400,
+        172341300,
+        58985500,
+        57812200,
+        57291800,
+        62564800,
+        58329300,
+        119147900,
+        60840900,
+        60877400,
+        58451700,
+        32136000,
+        171105200,
+        60703500,
+        59280900,
+        58129700,
+        58337400,
+        55501300,
+        58155200,
+        59296700,
+        78377100,
+        58474400
+      ],
+      "customStats": {},
+      "counters": {
+        "greeting_count": 9
+      },
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    },
+    {
+      "timestamp": "2023-04-17T04:22:53.888Z",
+      "scenariosCreated": 1,
+      "scenariosCompleted": 0,
+      "requestsCompleted": 11,
+      "latency": {
+        "min": 39.2,
+        "max": 167.6,
+        "median": 60.1,
+        "p95": 162.4,
+        "p99": 167.6
+      },
+      "rps": {
+        "count": 11,
+        "mean": 10.68
+      },
+      "scenarioDuration": {
+        "min": null,
+        "max": null,
+        "median": null,
+        "p95": null,
+        "p99": null
+      },
+      "scenarioCounts": {
+        "0": 1
+      },
+      "errors": {
+        "Exceeded maxRedirects. Probably stuck in a redirect loop https://www.artillery.io/404": 1
+      },
+      "codes": {
+        "301": 1,
+        "307": 10
+      },
+      "matches": 0,
+      "latencies": [
+        39244400,
+        167607900,
+        58727400,
+        60941400,
+        64040200,
+        57555000,
+        60056400,
+        59078400,
+        63072900,
+        63701400,
+        59799500
+      ],
+      "customStats": {},
+      "counters": {
+        "greeting_count": 1
+      },
+      "concurrency": 0,
+      "pendingRequests": 0,
+      "scenariosAvoided": 0
+    }
+  ]
+}
